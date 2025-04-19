@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind Demo</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <nav class="bg-blue-600 text-white p-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <a href="#" class="text-xl font-bold">TechSolutions</a>
+            <div class="space-x-4">
+                <a href="../bootstrap-demo/index.html" class="hover:text-blue-200">Home</a>
+                <a href="#" class="font-semibold underline">Services</a>
+            </div>
+        </div>
+    </nav>
+</head>
+<body class="bg-gray-100">
+    <div class="container mx-auto py-8">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <!-- Card 1 -->
+            <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                <img src="https://via.placeholder.com/400x200" alt="Service" class="w-full h-48 object-cover">
+                <div class="p-6">
+                    <h2 class="text-xl font-bold text-gray-800 mb-2">Cybersecurity</h2>
+                    <p class="text-gray-600 mb-4">Protect your business from digital threats with our comprehensive security solutions.</p>
+                    <button class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded transition">
+                        Get Started
+                    </button>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                <img src="https://via.placeholder.com/400x200" alt="Service" class="w-full h-48 object-cover">
+                <div class="p-6">
+                    <h2 class="text-xl font-bold text-gray-800 mb-2">Cloud Solutions</h2>
+                    <p class="text-gray-600 mb-4">Scalable cloud infrastructure for business agility.</p>
+                    <button class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded transition">
+                        Learn More
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
